@@ -5,12 +5,12 @@ Herramientas para la recolecciÃ³n de estadisticas en los manejadores de licencia
 ### Características
 * Permite recolectar estadisticas de uso de licencias
 * Archivo de lotes (*.bat) que lanza el proceso de creación de archivos donde se consignan las estadísticas.
-
+---
 ### Requisitos
 * Debe estar instalado un manejador de licencias de ArcGIS donde va ha ser ejecutado el proceso
 ---
 
----
+
 ### Instalación
 
 - Cree carpeta donde se almacenarán las estadísticas.
