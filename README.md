@@ -1,14 +1,14 @@
 # statistics-license-manager
-Herramientas para la recolecciÃ³n de estadisticas en los manejadores de licencia
+Herramientas para la recolección de estadísticas en los manejadores de licencia
 
 
 ### Generalidades
 Este repositorio contiene herramientas para la generación de estadisticas de uso de licencias.  Las herramientas son:
 
-- `count_licenses.bat`
+- [`count_licenses.bat`](tools/get_statistics-license-manager/README.md)
 Permite la generación de estadísticas en archivos *.txt.
 
-- `statistics2excel`
+- [`statistics2excel`](tools/statistics2excel/README.md)
 Permite la generación de un reporte en formato *.xls, usando los archivos de estadísticas previamente recolectadas.
 
 ### Licencia
