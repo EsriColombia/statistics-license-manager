@@ -2,25 +2,17 @@
 Herramientas para la recolecciÃ³n de estadisticas en los manejadores de licencia
 
 
-### Características
-* Permite recolectar estadisticas de uso de licencias
-* Archivo de lotes (*.bat) que lanza el proceso de creación de archivos donde se consignan las estadísticas.
----
-### Requisitos
-* Debe estar instalado un manejador de licencias de ArcGIS donde va ha ser ejecutado el proceso
----
+### Generalidades
+Este repositorio contiene herramientas para la generación de estadisticas de uso de licencias.  Las herramientas son:
 
+- `count_licenses.bat`
+Permite la generación de estadísticas en archivos *.txt.
 
-### Instalación
+- `statistics2excel`
+Permite la generación de un reporte en formato *.xls, usando los archivos de estadísticas previamente recolectadas.
 
-- Cree carpeta donde se almacenarán las estadísticas.
+### Licencia
 
-```proto
-	c:\Estadisticas
-```
+Al contribuir con su código, acepta otorgar la licencia de su contribución según los términos de la [Licencia Apache, Versión 2.0] (license.txt).
 
-- Copie el archivo `*.bat` desde `\tools\get-statistics\license-manager\count_licenses.bat` a la carpeta donde desea ubicar los achivos.  Para el ejemplo `c:\Estadisticas`.
-
-- Edite el archivo `count_licenses.bat` y reemplace `[IP_HOSTNAME_ADMIN_LIC]`, con el HOSTNAM o IP del servidor de licencia. Igualmente reemplace [STATISTICS_FOLDER] por la ruta a la carpeta creada en el paso 1.  
-
-- Ejecute `count_licenses.bat` desde línea de comandos.
+Sus contribuciones deben ser un trabajo original de su autoría, incluidas cualquier modificación o adición a un trabajo existente, que se envíe intencionalmente para su inclusión en este repositorio. Se rechazarán las contribuciones que requieran una licencia adicional de terceros o que tengan otras restricciones (incluidas, entre otras, patentes y marcas comerciales relacionadas).
